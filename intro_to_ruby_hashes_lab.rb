@@ -32,8 +32,7 @@ def monopoly_with_third_tier
 	    :rent_in_dollars => {}
 	  }
 	}
-monopoly[:railroads][:pieces] = 4
-monopoly
+monopoly[:railroads] = 4
 end
 
 def monopoly_with_fourth_tier
